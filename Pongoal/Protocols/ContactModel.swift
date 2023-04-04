@@ -13,4 +13,6 @@ struct ContactModel {
     static let object:UInt32 = 0x1 << 2
     static let goal_player:UInt32 = 0x1 << 3
     static let goal_opponent:UInt32 = 0x1 << 4
+    static let opponent:UInt32 = 0x1 << 5
+    static let powerUp: UInt32 = 0x1 << 6
 }

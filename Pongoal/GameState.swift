@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+enum GameState {
+    case start, inMenu, isRunning, hasEnded
+}
